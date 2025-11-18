@@ -5,25 +5,25 @@ Upload an image and instantly identify objects from the COCO dataset, with clear
 
 ## Features
 
-YOLO11-powered detection for accurate object recognition
+•	YOLO11-powered detection for accurate object recognition
 
-Supports 80 COCO object classes
+•	Supports 80 COCO object classes
 
-Streamlit-based UI for easy image upload and search
+•	Streamlit-based UI for easy image upload and search
 
-Modular code for easy customization and extension
+•	Modular code for easy customization and extension
 
-Works on both CPU and GPU environments
+•	Works on both CPU and GPU environments
 
 ## Project Structure
 
-app.py → Streamlit application for user interface
+•	app.py → Streamlit application for user interface
 
-inference.py → Loads the model and handles detection logic
+•	inference.py → Loads the model and handles detection logic
 
-utils.py → Utility functions for preprocessing, visualization, etc.
+•	utils.py → Utility functions for preprocessing, visualization, etc.
 
-config.py → Configurations for paths, thresholds, and parameters
+•	config.py → Configurations for paths, thresholds, and parameters
 
 ## Installation Instructions
 1. Create Environment (GPU)
@@ -37,18 +37,18 @@ streamlit run app.py
 
 ## Dependencies
 
-torch
+•	torch
 
-torchvision
+•	torchvision
 
-streamlit
+•	streamlit
 
-Other required packages listed in requirements.txt
+•	Other required packages listed in requirements.txt
 
 ## Usage
 
-Upload an image in the Streamlit interface
+•	Upload an image in the Streamlit interface
 
-Select objects to search (from COCO categories)
+•	Select objects to search (from COCO categories)
 
-View detected objects with bounding boxes in real time
+•	View detected objects with bounding boxes in real time
