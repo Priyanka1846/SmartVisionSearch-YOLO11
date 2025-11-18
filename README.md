@@ -27,12 +27,14 @@ Upload an image and instantly identify objects from the COCO dataset, with clear
 
 ## Installation Instructions
 1. Create Environment (GPU)
+```
 conda create -n smartvision_env python=3.11 -y
 conda activate smartvision_env
 conda install pytorch==2.5.1 torchvision==0.20.1 pytorch-cuda=12.4 -c pytorch -c nvidia
 pip install -r requirements.txt
+```
 
-2. Run the App
+3. Run the App
 streamlit run app.py
 
 ## Dependencies
