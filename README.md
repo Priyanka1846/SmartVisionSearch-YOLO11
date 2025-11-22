@@ -1,17 +1,20 @@
 # 🚀 SmartVisionSearch-YOLO11
-SmartVisionSearch-YOLO11 is a computer vision search engine that leverages YOLO11 for real-time object detection and Streamlit for an interactive web interface. Upload an image, instantly identify objects from the COCO dataset (80 classes), and view bounding boxes with predictions in real time.
+SmartVisionSearch-YOLO11 is a computer vision search engine that leverages YOLO11 for real-time object detection and **Streamlit** for an interactive web interface. Upload an image, instantly identify objects from the **COCO dataset (80 classes)**, and view bounding boxes with predictions in real time.
 
 # 📘 1. Project Title
-SmartVisionSearch-YOLO11 – Real-time Object Detection & Search Engine
+**SmartVisionSearch-YOLO11** – Real-time Object Detection & Search Engine
 
 # 📖 2. Abstract / Introduction
-This project combines YOLO11 (You Only Look Once, version 11) with Streamlit to create a lightweight, interactive search engine for object detection. It enables users to upload images, detect objects from the COCO dataset, and visualize results with bounding boxes. The modular design makes it easy to extend and customize for research or production use.
+This project combines **YOLO11**  with **Streamlit** to create a lightweight, interactive search engine for object detection. It enables users to upload images, detect objects from the COCO dataset, and visualize results with bounding boxes. The modular design makes it easy to extend and customize for research or production use.
 
 # 📊 3. Dataset & YOLO Model Details (COCO)
-•	Dataset: COCO (Common Objects in Context)
-•	Classes Supported: 80 object categories (e.g., person, car, dog, chair, etc.)
-•	Model: YOLO11 – optimized for real-time detection with high accuracy
-•	Detection Output: Bounding boxes, confidence scores, and class labels
+•	**Dataset:** COCO (Common Objects in Context)
+
+•	**Classes Supported:** 80 object categories (e.g., person, car, dog, chair, etc.)
+
+•	**Model:** YOLO11 – optimized for real-time detection with high accuracy
+
+•	**Detection Output:** Bounding boxes, confidence scores, and class labels
 
 # ⚙️ 4. Environment Setup
 Create a new Conda environment and install dependencies:
@@ -35,9 +38,9 @@ pip install -r requirements.txt
 ```
 
 # 🖥️ 6. How to Run in VS Code using Conda
-1.	Open VS Code
+1.	Open **VS Code**
 2.	Select the Conda environment:
-   •	Press Ctrl+Shift+P → Search for Python: Select Interpreter → Choose smartvision_env
+   •	Press Ctrl+Shift+P → Search for **Python: Select Interpreter** → Choose smartvision_env
 3.	Run the app in the integrated terminal:
 ```
 streamlit run app.py
@@ -63,21 +66,30 @@ This will launch a local server and open the app in your browser. You can upload
 
 # 🔧 9. Enhancements / Innovations Added
 •	Modular architecture for easy extension
-•	Support for both CPU and GPU environments
+
+•	Support for both **CPU** and **GPU** environments
+
 •	Real-time detection with bounding boxes and confidence scores
+
 •	Streamlit-based interactive search interface
+
 •	Configurable thresholds and parameters via config.py
 
 # 🏆 10. Results & Conclusion
 •	Successfully detects and visualizes objects from the COCO dataset in real time
 
 •	Provides an intuitive interface for uploading and searching images
-•	Demonstrates the power of combining YOLO11 with Streamlit for rapid prototyping and deployment
+
+•	Demonstrates the power of combining **YOLO11** with **Streamlit** for rapid prototyping and deployment
+
 •	Can be extended for custom datasets, advanced search features, or production-ready applications
 
 # 📦 Dependencies
 
-•	torch
-•	torchvision
-•	streamlit
+•	**torch**
+
+•	**torchvision**
+
+•	**streamlit**
+
 •	Other required packages listed in requirements.txt
