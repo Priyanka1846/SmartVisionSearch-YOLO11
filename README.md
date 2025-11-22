@@ -75,7 +75,7 @@ This will launch a local server and open the app in your browser. You can upload
 •	Demonstrates the power of combining YOLO11 with Streamlit for rapid prototyping and deployment
 •	Can be extended for custom datasets, advanced search features, or production-ready applications
 
-📦 Dependencies
+# 📦 Dependencies
 
 •	torch
 •	torchvision
